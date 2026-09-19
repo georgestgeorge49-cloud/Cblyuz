@@ -316,8 +316,12 @@ button {
               transform 0.5s var(--ease), border-color 0.45s var(--ease);
   border-block-end: 1px solid transparent;
 }
+/* Solid paper first: iOS < 16.2 drops color-mix() and older Safari needs the
+   -webkit- backdrop prefix — without these the bar went see-through on iPhone. */
 .header.is-scrolled {
-  background: color-mix(in srgb, var(--paper) 88%, transparent);
+  background: var(--paper);
+  background: color-mix(in srgb, var(--paper) 94%, transparent);
+  -webkit-backdrop-filter: saturate(1.1) blur(10px);
   backdrop-filter: saturate(1.1) blur(10px);
   border-block-end-color: var(--rule-soft);
 }
@@ -1627,7 +1631,9 @@ button {
   place-items: center;
   border: 1px solid var(--rule);
   border-radius: 50%;
+  background: var(--paper);
   background: color-mix(in srgb, var(--paper) 78%, transparent);
+  -webkit-backdrop-filter: saturate(1.1) blur(8px);
   backdrop-filter: saturate(1.1) blur(8px);
   color: var(--text-title);
   transition: color 0.35s var(--ease), border-color 0.35s var(--ease),
@@ -2175,8 +2181,10 @@ button {
 @media (max-width: 480px) {
   :root { --t-hero: clamp(2.9rem, 15vw, 4.5rem); }
   .hero__figure { max-height: 42svh; }
-  .logos { grid-template-columns: minmax(0, 1fr); }
-  .logo-cell { border-inline-end: 0 !important; min-height: 0; padding-block: 1.5rem; }
+  .logo-cell { min-height: 0; padding: 1.1rem 0.85rem; gap: 0.7rem; justify-content: flex-start; }
+  .logo-cell img { width: 100%; height: 3.5rem; object-fit: contain; object-position: left center; }
+  [dir='rtl'] .logo-cell img { object-position: right center; }
+  .logo-cell figcaption { font-size: 0.8rem; }
   .footer { flex-direction: column; gap: 0.6rem; }
   .audio__time { margin-inline-start: auto; }
 }
