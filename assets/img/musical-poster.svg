@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1333" width="1000" height="1333" role="img">
+  <rect width="1000" height="1333" fill="#17150F"/>
+  <g opacity="0.85">
+    <rect x="180" y="146.63" width="640" height="613.1800000000001" fill="none" stroke="#8A7247" stroke-width="5"/>
+    <path d="M 180 759.81 L 820 146.63" stroke="#2F2C24" stroke-width="4"/>
+    <ellipse cx="500" cy="453.22" rx="100" ry="139.965" fill="#221F18" stroke="#3A362B"/>
+  </g>
+  <text x="500" y="946.43" font-family="Helvetica Neue, Arial, sans-serif" font-size="42" letter-spacing="7.56" fill="#E6E1D5" text-anchor="middle">NO ONE IN FRONT</text>
+  <text x="500" y="1033.075" font-family="Helvetica Neue, Arial, sans-serif" font-size="42" letter-spacing="7.56" fill="#E6E1D5" text-anchor="middle">OF THE MIRROR</text>
+  <text x="500" y="1139.715" font-family="Helvetica Neue, Arial, sans-serif" font-size="23" letter-spacing="4.14" fill="#8A7247" text-anchor="middle">MUSICAL</text>
+  <text x="500" y="1293" font-family="Helvetica Neue, Arial, sans-serif" font-size="20" letter-spacing="3.60" fill="#4E493D" text-anchor="middle">POSTER PLACEHOLDER</text>
+</svg>

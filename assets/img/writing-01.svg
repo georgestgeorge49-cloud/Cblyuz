@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" width="900" height="620" role="img">
+  <rect width="900" height="620" fill="#E4E0D6"/>
+  <g fill="#D2CCBE" opacity="0.75">
+    <circle cx="510.00357450102456" cy="375.7823678910645" r="137.10152112138456"/>
+    <rect x="284.03468380402046" y="478.9351923168397" width="552.7078301154006" height="86.78450173698221"/>
+  </g>
+  <rect x="0.5" y="0.5" width="899" height="619" fill="none" stroke="#CFC9BA"/>
+  <text x="450" y="316" font-family="Helvetica Neue, Arial, sans-serif" font-size="24" letter-spacing="4.32" fill="#8D877A" text-anchor="middle">ARTICLE 01</text>
+</svg>

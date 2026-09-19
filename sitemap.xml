@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://konstantinbluz.com/en/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konstantinbluz.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://konstantinbluz.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://konstantinbluz.com/en/"/>
+    <lastmod>2026-08-14</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://konstantinbluz.com/ru/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konstantinbluz.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://konstantinbluz.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://konstantinbluz.com/en/"/>
+    <lastmod>2026-08-14</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://konstantinbluz.com/en/chapters.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konstantinbluz.com/en/chapters.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://konstantinbluz.com/ru/chapters.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://konstantinbluz.com/en/"/>
+    <lastmod>2026-08-14</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://konstantinbluz.com/ru/chapters.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konstantinbluz.com/en/chapters.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://konstantinbluz.com/ru/chapters.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://konstantinbluz.com/en/"/>
+    <lastmod>2026-08-14</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://konstantinbluz.com/en/musical.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konstantinbluz.com/en/musical.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://konstantinbluz.com/ru/musical.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://konstantinbluz.com/en/"/>
+    <lastmod>2026-08-14</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://konstantinbluz.com/ru/musical.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konstantinbluz.com/en/musical.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://konstantinbluz.com/ru/musical.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://konstantinbluz.com/en/"/>
+    <lastmod>2026-08-14</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://konstantinbluz.com/en/writing/gas-decade.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konstantinbluz.com/en/writing/gas-decade.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://konstantinbluz.com/ru/writing/gas-decade.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://konstantinbluz.com/en/"/>
+    <lastmod>2026-08-14</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://konstantinbluz.com/ru/writing/gas-decade.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konstantinbluz.com/en/writing/gas-decade.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://konstantinbluz.com/ru/writing/gas-decade.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://konstantinbluz.com/en/"/>
+    <lastmod>2026-08-14</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://konstantinbluz.com/en/writing/energy-diplomacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konstantinbluz.com/en/writing/energy-diplomacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://konstantinbluz.com/ru/writing/energy-diplomacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://konstantinbluz.com/en/"/>
+    <lastmod>2026-08-14</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://konstantinbluz.com/ru/writing/energy-diplomacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konstantinbluz.com/en/writing/energy-diplomacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://konstantinbluz.com/ru/writing/energy-diplomacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://konstantinbluz.com/en/"/>
+    <lastmod>2026-08-14</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://konstantinbluz.com/en/writing/novel-and-office.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konstantinbluz.com/en/writing/novel-and-office.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://konstantinbluz.com/ru/writing/novel-and-office.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://konstantinbluz.com/en/"/>
+    <lastmod>2026-08-14</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://konstantinbluz.com/ru/writing/novel-and-office.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konstantinbluz.com/en/writing/novel-and-office.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://konstantinbluz.com/ru/writing/novel-and-office.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://konstantinbluz.com/en/"/>
+    <lastmod>2026-08-14</lastmod>
+    <priority>0.7</priority>
+  </url>
+</urlset>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img">
+  <rect width="1200" height="630" fill="#F4F2ED"/>
+  <rect x="0" y="0" width="408.00000000000006" height="630" fill="#E4E0D6"/>
+  <ellipse cx="204.00000000000003" cy="264.59999999999997" rx="70" ry="88" fill="#C9C3B4"/>
+  <path d="M 48 630 C 72 478.8, 132 415.8, 204.00000000000003 415.8
+           C 276 415.8, 336.00000000000006 478.8, 360 630 Z" fill="#C9C3B4"/>
+  <text x="504" y="277.2" font-family="Georgia, serif" font-size="72" fill="#14130F">Konstantin Bluz</text>
+  <text x="504" y="346.5" font-family="Helvetica Neue, Arial, sans-serif" font-size="24"
+        letter-spacing="2" fill="#6B675E">Energy consultant &#183; Diplomat &#183; Lecturer &#183; Author</text>
+  <line x1="504" y1="390.6" x2="1104" y2="390.6" stroke="#CFC9BA"/>
+  <text x="504" y="441" font-family="Helvetica Neue, Arial, sans-serif" font-size="18"
+        letter-spacing="3" fill="#8A7247">ONE BIOGRAPHY, SEVERAL CHAPTERS</text>
+</svg>

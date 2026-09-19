@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Konstantin Bluz</title>
+<meta name="robots" content="noindex, follow">
+<link rel="canonical" href="https://konstantinbluz.com/en/">
+<link rel="alternate" hreflang="en" href="https://konstantinbluz.com/en/">
+<link rel="alternate" hreflang="ru" href="https://konstantinbluz.com/ru/">
+<link rel="alternate" hreflang="x-default" href="https://konstantinbluz.com/en/">
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+
+<!-- No-JS and crawler fallback: English is the default edition. -->
+<meta http-equiv="refresh" content="0; url=/en/">
+
+<style>
+  html { background: #F4F2ED; color: #14130F; }
+  body {
+    margin: 0; min-height: 100svh;
+    display: grid; place-items: center; gap: 1rem;
+    font-family: Georgia, 'Times New Roman', serif;
+    text-align: center; padding: 2rem;
+  }
+  ul { list-style: none; padding: 0; display: flex; gap: 1.25rem; font-size: .8rem;
+       letter-spacing: .18em; text-transform: uppercase; font-family: system-ui, sans-serif; }
+  a { color: #14130F; }
+</style>
+
+<script>
+  // Send the visitor to the edition they last chose, or the closest match to
+  // their browser languages. Falls back to the meta refresh above.
+  (function () {
+    var supported = ['en', 'ru'];
+    var choice = null;
+    try { choice = localStorage.getItem('kb-lang'); } catch (e) {}
+    if (supported.indexOf(choice) === -1) {
+      var prefs = navigator.languages || [navigator.language || 'en'];
+      for (var i = 0; i < prefs.length && !choice; i++) {
+        var code = String(prefs[i]).toLowerCase().split('-')[0];
+        if (supported.indexOf(code) > -1) choice = code;
+      }
+    }
+    location.replace('/' + (choice || 'en') + '/');
+  })();
+</script>
+</head>
+<body>
+  <p>Konstantin Bluz</p>
+  <ul>
+    <li><a href="/en/">English</a></li>
+    <li><a href="/ru/" lang="ru">Русский</a></li>
+  </ul>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" role="img">
+  <defs><linearGradient id="v5" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#26241E"/><stop offset="1" stop-color="#131209"/>
+  </linearGradient></defs>
+  <rect width="1280" height="720" fill="url(#v5)"/>
+  <g stroke="#333028" fill="none" stroke-width="2">
+    <path d="M0 518.4 Q 320 403.20000000000005, 640 489.6 T 1280 432"/>
+    <path d="M0 590.4 Q 384 475.20000000000005, 704 561.6 T 1280 503.99999999999994"/>
+  </g>
+  <circle cx="640" cy="360" r="46" fill="none" stroke="#8A7247" stroke-width="1.5"/>
+  <path d="M628 342 L662 360 L628 378 Z" fill="#8A7247"/>
+  <text x="640" y="656" font-family="Helvetica Neue, Arial, sans-serif" font-size="22" letter-spacing="3.96" fill="#6F6A5E" text-anchor="middle">Lecture — energy markets</text>
+</svg>

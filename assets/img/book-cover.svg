@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1350" width="900" height="1350" role="img">
+  <defs>
+    <linearGradient id="bc" x1="0" y1="0" x2="0.7" y2="1">
+      <stop offset="0" stop-color="#1D1B16"/><stop offset="1" stop-color="#0D0C0A"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1350" fill="url(#bc)"/>
+  <line x1="49.5" y1="0" x2="49.5" y2="1350" stroke="#2E2B23"/>
+  <g fill="none" stroke="#8A7247" stroke-width="3.6">
+    <circle cx="450" cy="567" r="211.5"/>
+    <path d="M 238.5 567 Q 450 317.25, 661.5 567"/>
+    <path d="M 238.5 567 Q 450 816.75, 661.5 567"/>
+  </g>
+  <text x="450" y="972" font-family="Helvetica Neue, Arial, sans-serif" font-size="41" letter-spacing="7.38" fill="#E6E1D5" text-anchor="middle">THE WIDE EXPANSE</text>
+  <text x="450" y="1046.25" font-family="Helvetica Neue, Arial, sans-serif" font-size="41" letter-spacing="7.38" fill="#E6E1D5" text-anchor="middle">OF THE FREE</text>
+  <text x="450" y="1161" font-family="Helvetica Neue, Arial, sans-serif" font-size="21" letter-spacing="3.78" fill="#8A7247" text-anchor="middle">NOVEL &#183; 2025</text>
+  <text x="450" y="1310" font-family="Helvetica Neue, Arial, sans-serif" font-size="17" letter-spacing="3.06" fill="#514C3F" text-anchor="middle">COVER PLACEHOLDER</text>
+</svg>
