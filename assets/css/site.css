@@ -91,6 +91,7 @@ html {
   -webkit-text-size-adjust: 100%;
   scroll-behavior: smooth;
   scroll-padding-top: var(--header-h);
+  overflow-x: clip;
 }
 
 body {
@@ -105,7 +106,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
+  overflow-x: clip;
 }
+
+/* iOS Safari ignores overflow on html/body when working out how far the page
+   can be pinch-zoomed out, so anything wider than the screen (the 3D deck's
+   side cards) must be clipped by a non-root box. `clip` rather than `hidden`
+   so <main> doesn't become a scroll container and break position: sticky. */
+main { overflow-x: clip; }
 
 ::selection { background: var(--selection); }
 
