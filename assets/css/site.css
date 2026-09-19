@@ -1298,6 +1298,9 @@ button {
   grid-auto-columns: minmax(15rem, 1fr);
   gap: clamp(0.75rem, 1.4vw, 1.25rem);
   overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  touch-action: pan-x pan-y;
+  overscroll-behavior-x: contain;
   scrollbar-width: thin;
   padding-block-end: 0.5rem;
   scroll-snap-type: x mandatory;
@@ -1367,6 +1370,10 @@ button {
   inset: auto;
   transform: none !important;
   opacity: 1 !important;
+  /* Leftovers from the 3D page-turn: on iOS Safari a compositing ancestor
+     like this swallows horizontal swipes, so the reel strip wouldn't scroll. */
+  backface-visibility: visible;
+  will-change: auto;
   align-content: start;
   padding-block: clamp(3rem, 8vh, 5rem);
   border-block-start: 1px solid var(--rule-soft);
@@ -2182,8 +2189,24 @@ button {
   :root { --t-hero: clamp(2.9rem, 15vw, 4.5rem); }
   .hero__figure { max-height: 42svh; }
   .logo-cell { min-height: 0; padding: 1.1rem 0.85rem; gap: 0.7rem; justify-content: flex-start; }
-  .logo-cell img { width: 100%; height: 3.5rem; object-fit: contain; object-position: left center; }
+  .logo-cell img { width: 100%; height: 4.5rem; object-fit: contain; object-position: left center; }
   [dir='rtl'] .logo-cell img { object-position: right center; }
+  /* Per-logo widths so each mark carries roughly the same visual weight
+     (~2900px² of actual ink, max 110×48): the files differ wildly in aspect
+     ratio and built-in whitespace, so one shared size made the wide ones
+     (EMEX, Energy Infrastructure) dominate and the padded ones look tiny. */
+  .logo-cell img[src$="logo-edeltech.png"] { width: 41px; }
+  .logo-cell img[src$="logo-emex.png"] { width: 91px; }
+  .logo-cell img[src$="logo-energy-infra.png"] { width: 95px; }
+  .logo-cell img[src$="logo-izdehar.png"] { width: 53px; }
+  .logo-cell img[src$="logo-marsh.png"] { width: 100px; }
+  .logo-cell img[src$="logo-merimon.png"] { width: 61px; }
+  .logo-cell img[src$="logo-navitas.png"] { width: 72px; }
+  .logo-cell img[src$="logo-negev-gas.png"] { width: 72px; }
+  .logo-cell img[src$="logo-netanya-college.png"] { width: 72px; }
+  .logo-cell img[src$="logo-noga.png"] { width: 91px; }
+  .logo-cell img[src$="logo-sonol.png"] { width: 72px; }
+  .logo-cell img[src$="logo-sp-global.png"] { width: 125px; }
   .logo-cell figcaption { font-size: 0.8rem; }
   .footer { flex-direction: column; gap: 0.6rem; }
   .audio__time { margin-inline-start: auto; }
