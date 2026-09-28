@@ -927,9 +927,13 @@ button {
 }
 .logo-cell:nth-child(4n) { border-inline-end: 0; }
 .logo-cell:hover, .logo-cell:focus-within { background: var(--paper-2); }
+.logo-cell img[src$="logo-shaham.png"] { --logo-k: 1.4; }
+.logo-cell img[src$="logo-ruppin.png"] { --logo-k: 1.25; }
 
 .logo-cell img {
-  width: clamp(7rem, 9vw, 9.5rem);
+  /* One shared width, nudged per logo with --logo-k: a long wordmark needs
+     more of it than a square mark to carry the same weight in the row. */
+  width: calc(clamp(7rem, 9vw, 9.5rem) * var(--logo-k, 1));
   height: auto;
   transition: transform 0.6s var(--ease-out);
 }
@@ -2207,6 +2211,9 @@ button {
   .logo-cell img[src$="logo-noga.png"] { width: 91px; }
   .logo-cell img[src$="logo-sonol.png"] { width: 72px; }
   .logo-cell img[src$="logo-sp-global.png"] { width: 125px; }
+  .logo-cell img[src$="logo-dan.png"] { width: 69px; }
+  .logo-cell img[src$="logo-shaham.png"] { width: 110px; }
+  .logo-cell img[src$="logo-ruppin.png"] { width: 98px; }
   .logo-cell figcaption { font-size: 0.8rem; }
   .footer { flex-direction: column; gap: 0.6rem; }
   .audio__time { margin-inline-start: auto; }
