@@ -393,16 +393,23 @@ function initLanguage() {
 /* ------------------------------------------------------------- gas policy */
 /** Independent expand/collapse rows — any number can be open at once. */
 function initGasTimeline() {
+  // Each page carries its own wording, so the labels come from the markup
+  // rather than from here — the Hebrew edition would otherwise flip to English
+  // the moment a row is opened. The arrow follows the writing direction.
+  const closedArrow = document.documentElement.dir === 'rtl' ? '←' : '→';
+
   $$('[data-gas-toggle]').forEach((toggle) => {
     const row = toggle.closest('[data-gas-row]');
     const label = $('[data-gas-label]', toggle);
     const arrow = $('[data-gas-arrow]', toggle);
+    const closedText = toggle.dataset.labelClosed || 'View details';
+    const openText = toggle.dataset.labelOpen || 'Hide details';
 
     toggle.addEventListener('click', () => {
       const open = row.classList.toggle('is-open');
       toggle.setAttribute('aria-expanded', String(open));
-      if (label) label.textContent = open ? 'Hide details' : 'View details';
-      if (arrow) arrow.textContent = open ? '↑' : '→';
+      if (label) label.textContent = open ? openText : closedText;
+      if (arrow) arrow.textContent = open ? '↑' : closedArrow;
     });
   });
 }
