@@ -8,6 +8,7 @@
 <link rel="canonical" href="https://konstantinbluz.com/en/">
 <link rel="alternate" hreflang="en" href="https://konstantinbluz.com/en/">
 <link rel="alternate" hreflang="ru" href="https://konstantinbluz.com/ru/">
+<link rel="alternate" hreflang="he" href="https://konstantinbluz.com/he/">
 <link rel="alternate" hreflang="x-default" href="https://konstantinbluz.com/en/">
 <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
 
@@ -31,7 +32,7 @@
   // Send the visitor to the edition they last chose, or the closest match to
   // their browser languages. Falls back to the meta refresh above.
   (function () {
-    var supported = ['en', 'ru'];
+    var supported = ['en', 'ru', 'he'];
     var choice = null;
     try { choice = localStorage.getItem('kb-lang'); } catch (e) {}
     if (supported.indexOf(choice) === -1) {
@@ -50,6 +51,7 @@
   <ul>
     <li><a href="/en/">English</a></li>
     <li><a href="/ru/" lang="ru">Русский</a></li>
+    <li><a href="/he/" lang="he" dir="rtl">עברית</a></li>
   </ul>
 </body>
 </html>
