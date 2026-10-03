@@ -268,7 +268,17 @@ button {
 .link__arrow { transition: transform 0.45s var(--ease-out); }
 .link:hover .link__arrow { transform: translateX(var(--dir-x, 0.35rem)); }
 
-[dir='rtl'] { --origin-start: right; --dir-x: -0.35rem; }
+[dir='rtl'] {
+  --origin-start: right;
+  --dir-x: -0.35rem;
+  /* Cormorant carries no Hebrew, so letters fell back to Frank Ruhl while the
+     digits stayed behind in Cormorant's old-style figures — smaller and hanging
+     below the baseline. Hebrew leads with its own serif so both come from one
+     font; lining figures keep years sitting on the baseline either way. */
+  --f-display: 'Frank Ruhl Libre', 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --f-sans: 'Heebo', 'Inter', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;
+  font-variant-numeric: lining-nums;
+}
 
 /* --------------------------------------------------------- 05 motion/reveal */
 /* Everything below is gated on `.js`, which the script adds to <html> at boot.
