@@ -1,6 +1,5 @@
 User-agent: *
 Allow: /
-Disallow: /he/
 
 # Answer engines and AI crawlers are welcome — the biography is the point.
 User-agent: GPTBot
@@ -21,4 +20,4 @@ Allow: /
 User-agent: Google-Extended
 Allow: /
 
-Sitemap: https://konstantinbluz.com/sitemap.xml
+Sitemap: https://www.cblyuz.com/sitemap.xml
