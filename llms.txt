@@ -1,0 +1,29 @@
+# Constantine Blyuz
+
+> Energy consultant, lecturer and author. Former Deputy Director of Israel’s Natural Gas Authority (2010–2020), former Israeli diplomat, co-founder and chairman of an NGO.
+
+Personal site, published in three languages: English (/en/), Russian (/ru/) and Hebrew (/he/). Every page is static HTML and readable without JavaScript. Last updated: 2026-10-20.
+
+## Main pages
+
+- [English edition](https://www.cblyuz.com/en/): Constantine Blyuz has worked in the Israeli and regional energy industry since 2004 — Deputy Director of the Natural Gas Authority, First Secretary at Israeli embassies in Ukraine and Moldova, lecturer, and author of the novel The Wide Expanse of the Free.
+- [Russian edition](https://www.cblyuz.com/ru/): биография, газовая политика, кейсы, публикации и контакты.
+- [Hebrew edition](https://www.cblyuz.com/he/): פרופיל מקצועי, מדיניות הגז הטבעי, תיק עבודות ייעוץ, פרסומים ופרטי קשר.
+
+## Writing
+
+- [Israel’s gas decade: what regulation actually built](https://www.cblyuz.com/en/writing/gas-decade.html): What a decade of natural gas regulation actually built in Israel — licensing, tariffs, network development and market rules.
+- [Diplomacy at the pipeline: energy as a language between states](https://www.cblyuz.com/en/writing/energy-diplomacy.html): On energy as a working language of diplomacy, written from two embassies.
+- [On writing a novel while working in government](https://www.cblyuz.com/en/writing/novel-and-office.html): An essay on writing fiction in the hours around a public sector job.
+- [Interview with Kosatka Energy Media, 2019 (PDF)](https://www.cblyuz.com/assets/docs/blyuz-interview-kosatka.pdf)
+- [Cooperation between the regulatory authorities of Israel, Spain and Türkiye, 2018 (PDF)](https://www.cblyuz.com/assets/docs/blyuz-turkey-spain-2018.pdf)
+
+## Books and music
+
+- [Selected chapters of the novel](https://www.cblyuz.com/en/chapters.html): Selected chapters from The Wide Expanse of the Free, the debut novel by Constantine Blyuz.
+- [The musical: No One in Front of the Mirror](https://www.cblyuz.com/en/musical.html): Full synopsis of No One in Front of the Mirror, a chamber musical with book and lyrics by Constantine Blyuz.
+
+## Optional
+
+- [Full site text in one file](https://www.cblyuz.com/llms-full.txt)
+- [XML sitemap](https://www.cblyuz.com/sitemap.xml)
